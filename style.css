@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 255, 242);
+    box-shadow: 0px 1px 20px 1px #000000 ;
+    border-radius: 10px 25px;
+    padding: 4vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.descricao {
+    float: left;
+    width: 45%;
+    margin-right: 30px;
+    padding: 5vh;
+}
+
+input {
+    width: 2vw;
+    height: 3vh;
+    border-radius: 5px;
+    border: 1px solid #00ffdd;
+    background-color: beige;
+    text-align: center;
+    margin-right:  3px;
+    margin-bottom: 2px;
+    box-shadow:0.9px 0.9px 1px #000000;
+}
+
+.row {
+    width: 50%;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.column1 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 1px;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column2 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 1px;
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column3 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 1px;
+}
+
+.column4 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column4 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 1px;
+}
+
+.column5 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column5 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 0.8px;
+}
+
+.column6 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column6 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 1px;
+}
+
+.column7 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column7 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 0.8px;
+}
+
+.column8 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column8 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 0.8px;
+}
+
+.column9 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column9 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-top: 0.5px;
+}
+
+.column10 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column10 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 1px;
+}
+
+.column11 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column11 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 1px;
+}
+
+.column12 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column12 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 1px;
+}
+
+.column13 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column13 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 1px;
+}
+
+.column14 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column14 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 1px;
+}
+
+.column15 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.column15 div {
+    width: 2vw;
+    height: 3vh;
+    border: 2px solid beige;
+    background-color: beige;
+    margin-bottom: 1px;
+}
