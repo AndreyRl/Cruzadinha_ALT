@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cruzadinha T.I</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
@@ -14,24 +17,24 @@
 
 <div class="descricao">
 
-    <span>1 - Componente relevante do HardWare, resposável pela aritmética básica, lógica, e a entrada e saída de dados..</span><br>
-    <span>2 - Resposável por realizar operações de de adição, subtração, funções lógicas e booleana AND</span><br>
-    <span>3 - Está no topo da hierarquia de memórias, sendo a mais veloz entre elas.</span><br>
-    <span>4 - Armazena dados necessários para o uso imediato. Dando agilidade para o sistema.</span><br>
-    <span>5 - Podendo apenas apenas realizar a leitura e nunca ser alterada, a BIOS é um exemplo, sendo um chip responsavél por carregar as configurações de inicialização do sistema.</span><br>
-    <span>6 - Subdivisão da ROM. Memória não-volátil, não apagável e reprogramável eletronicamente.</span><br>
-    <span>7 - Chip re-escrevível, não apaga os dados após desconectar da fonte de alimentação</span><br>
-    <span>8 - Possui uma grande capacidade de armazenamento, sendo não voláteis.</span><br>
-    <span>9 - Recurso que fornece permissionamento ao periféricos acesso a memória RAM</span><br>
-    <span>10 - Realiza o permissionamento para a CPU ter acesso aos periféricos e a memória.</span><br>
-    <span>11 - AB – especificar um endereço físico na memória. SENDO INIDIRECIONAL</span><br>
-    <span>12 - DB - é usado para transmitir dados entre componentes em ambas as direções. SENDO BIDIRECIONAL </span><br>
-    <span>13 & i7 - I5 – Lançado em 2009.
-        I7 – Lançado em 2008. <br>
+    <span class="text_desc" id="text_1">1 - Componente relevante do HardWare, resposável pela aritmética básica, lógica, e a entrada e saída de dados..</span><br>
+    <span class="text_desc" id="text_2">2 - Resposável por realizar operações de de adição, subtração, funções lógicas e booleana AND</span><br>
+    <span class="text_desc" id="text_3">3 - Está no topo da hierarquia de memórias, sendo a mais veloz entre elas.</span><br>
+    <span class="text_desc" id="text_4">4 - Armazena dados necessários para o uso imediato. Dando agilidade para o sistema.</span><br>
+    <span class="text_desc" id="text_5">5 - Podendo apenas apenas realizar a leitura e nunca ser alterada, a BIOS é um exemplo, sendo um chip responsavél por carregar as configurações de inicialização do sistema.</span><br>
+    <span class="text_desc" id="text_6">6 - Subdivisão da ROM. Memória não-volátil, não apagável e reprogramável eletronicamente.</span><br>
+    <span class="text_desc" id="text_7">7 - Chip re-escrevível, não apaga os dados após desconectar da fonte de alimentação</span><br>
+    <span class="text_desc" id="text_8">8 - Possui uma grande capacidade de armazenamento, sendo não voláteis.</span><br>
+    <span class="text_desc" id="text_9">9 - Recurso que fornece permissionamento ao periféricos acesso a memória RAM</span><br>
+    <span class="text_desc" id="text_10">10 - Realiza o permissionamento para a CPU ter acesso aos periféricos e a memória.</span><br>
+    <span class="text_desc" id="text_11">11 - Éspecificar um endereço físico na memória. SENDO UNIDIRECIONAL</span><br>
+    <span class="text_desc" id="text_12">12 - É usado para transmitir dados entre componentes em ambas as direções. SENDO BIDIRECIONAL </span><br>
+    <span class="text_desc" id="text_13_14">13 & 14 - Lançados em 2009. <br>
+               Lançado em 2008. <br>
         •	Arquitetura: x86; <br>
         •	Principais características: <br> possuem quatro núcleos, memória cache L3 de 8 MB, controlador de memória integrado, tecnologia Intel Turbo Boost, tecnologia Intel Hyper-Threading, tecnologia Intel HD Boost e recurso Intel QPI.</span><br>
-    <span>14 - DUAL-CORE = Possui 2 núcleos para a execução de processos.</span><br>
-    <span>15 - QUAD-CORE = Possui 4 núcleos para a execução de processos.</span><br>
+    <span class="text_desc" id="text_15">15 - Possui 2 núcleos para a execução de processos.</span><br>
+    <span class="text_desc" id="text_16">16 - Possui 4 núcleos para a execução de processos.</span><br>
 
 </div>
 </div>
@@ -39,31 +42,13 @@
     <div class="container">
 
         <div class="box">
-
-            <div class="column1">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="M">
+            <div class="column">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-            </div>
-            <div class="column2">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="e">
+                <div class="num" onclick="ax_8()" id="num_8">8→</div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -76,12 +61,32 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
             </div>
-            <div class="column3">
+            <div class="column 1">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" name="" id="M">
+                <div class="vazio"></div>
+                <input type="text" id="m_1" onkeyup ="m_1valid()">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+            </div>
+            <div class="column 2">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <input type="text" id="e_2" onkeyup="e_2valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -94,121 +99,14 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
             </div>
-            <div class="column4">
-                <div class="vazio"></div>
-                <input type="text" name="" id="e">
-                <input type="text" name="" id="p">
-                <input type="text" name="" id="r">
-                <input type="text" name="" id="o">
-                <input type="text" name="" id="m">
+            <div class="column 3">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
+                <input type="text" id="m_3" onkeyup="m_3valid()">
                 <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-            </div>
-            <div class="column5">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="r">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="r">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="c">
-                <input type="text" name="" id="p">
-                <input type="text" name="" id="u">
-            </div>
-            <div class="column6">
-                <div class="vazio"></div>
-                <input type="text" name="" id="r">
-                <input type="text" name="" id="e">
-                <input type="text" name="" id="g">
-                <input type="text" name="" id="i">
-                <input type="text" name="" id="s">
-                <input type="text" name="" id="t">
-                <input type="text" name="" id="r">
-                <input type="text" name="" id="a">
-                <input type="text" name="" id="d">
-                <input type="text" name="" id="o">
-                <input type="text" name="" id="r">
-                <input type="text" name="" id="e">
-                <input type="text" name="" id="s">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-            </div>
-            <div class="column7">
-                <input type="text" name="" id="f">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="a">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="m">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="o">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="i">
-                <input type="text" name="" id="7">
-            </div>
-            <div class="column8">
-                <input type="text" name="" id="l">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="d">
-                <input type="text" name="" id="a">
-                <input type="text" name="" id="t">
-                <input type="text" name="" id="a">
-                <input type="text" name="" id="b">
-                <input type="text" name="" id="u">
-                <input type="text" name="" id="s">
-                <input type="text" name="" id="m">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="5">
-                <div class="vazio"></div>
-            </div>
-            <div class="column9">
-                <input type="text" name="" id="a">
-                <input type="text" name="" id="d">
-                <input type="text" name="" id="d">
-                <input type="text" name="" id="r">
-                <input type="text" name="" id="e">
-                <input type="text" name="" id="s">
-                <input type="text" name="" id="s">
-                <input type="text" name="" id="b">
-                <input type="text" name="" id="u">
-                <input type="text" name="" id="s">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-            </div>
-            <div class="column10">
-                <input type="text" name="" id="h">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="d">
-                <input type="text" name="" id="m">
-                <input type="text" name="" id="a">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -220,17 +118,113 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
             </div>
-            <div class="column11">
-                <input type="text" name="" id="h">
+            <div class="column 4">
                 <div class="vazio"></div>
-                <input type="text" name="" id="q">
-                <input type="text" name="" id="u">
-                <input type="text" name="" id="a">
-                <input type="text" name="" id="d">
-                <input type="text" name="" id="c">
-                <input type="text" name="" id="o">
-                <input type="text" name="" id="r">
-                <input type="text" name="" id="e">
+                <div class="num" onclick="ax_6()" id="num_6">6↓</div>
+                <input type="text" id="e_4" onkeyup="e_4valid()">
+                <input type="text" id="p_4" onkeyup="p_4valid()">
+                <input type="text" id="r_4" onkeyup="r_4valid()">
+                <input type="text" id="o_4" onkeyup="o_4valid()">
+                <input type="text" id="m_4" onkeyup="m_4valid()">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="num" onclick="ax_4()" id="num_4">4→</div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="num" onclick="ax_10()" id="num_10">10→</div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+            </div>
+            <div class="column 5">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="num" onclick="ax_3()" id="num_3">3→</div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <input type="text" id="r_5" onkeyup="r_5valid()">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <input type="text" id="r_5_2" onkeyup="r_5_2valid()">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="num" onclick="ax_5()" id="num_5">5→</div>
+                <div class="num" onclick="ax_1()" id="num_1">1↓</div>
+                <input type="text" id="c_5" onkeyup="c_5valid()">
+                <input type="text" id="p_5" onkeyup="p_5valid()">
+                <input type="text" id="u_5" onkeyup="u_5valid()">
+            </div>
+            <div class="column 6">
+                <div class="vazio"></div>
+                <div class="num" onclick="ax_7()" id="num_7">7→</div>
+                <input type="text" id="r_6" onkeyup="r_6valid()">
+                <input type="text" id="e_6" onkeyup="e_6valid()">
+                <input type="text" id="g_6" onkeyup="g_6valid()">
+                <input type="text" id="i_6" onkeyup="i_6valid()">
+                <input type="text" id="s_6" onkeyup="s_6valid()">
+                <input type="text" id="t_6" onkeyup="t_6valid()">
+                <input type="text" id="r_6_2" onkeyup="r_6_2valid()">
+                <input type="text" id="a_6" onkeyup="a_6valid()">
+                <input type="text" id="d_6" onkeyup="d_6valid()">
+                <input type="text" id="o_6" onkeyup="o_6valid()">
+                <input type="text" id="r_6_3" onkeyup="r_6_3valid()">
+                <input type="text" id="e_6_2" onkeyup="e_6_2valid()">
+                <input type="text" id="s_6_2" onkeyup="s_6_2valid()">
+                <div class="num" onclick="ax_13_14()" id="num_13">13→</div>
+                <div class="vazio"></div>
+            </div>
+            <div class="column 7">
+                <div class="vazio"></div>
+                <input type="text" id="f_7" onkeyup="f_7valid()">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <input type="text" id="a_7" onkeyup="a_7valid()">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <input type="text" id="m_7" onkeyup="m_7valid()">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <input type="text" id="o_7" onkeyup="o_7valid()">
+                <div class="vazio"></div>
+                <div class="num" onclick="ax_13_14()" id="num_14">14↓</div>
+                <input type="text" id="i_7" onkeyup="i_7valid()">
+                <input type="text" id="seven_7" onkeyup="seven_7valid()">
+            </div>
+            <div class="column 8">
+                <div class="vazio"></div>
+                <input type="text" id="l_8" onkeyup="l_8valid()">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="num" onclick="ax_12()" id="num_12">12↓</div>
+                <input type="text" id="d_8" onkeyup="d_8valid()">
+                <input type="text" id="a_8" onkeyup="a_8valid()">
+                <input type="text" id="t_8" onkeyup="t_8valid()">
+                <input type="text" id="a_8_2" onkeyup="a_8_2valid()">
+                <input type="text" id="b_8" onkeyup="b_8valid()">
+                <input type="text" id="u_8" onkeyup="u_8valid()">
+                <input type="text" id="s_8" onkeyup="s_8valid()">
+                <input type="text" id="m_8" onkeyup="m_8valid()">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <input type="text" id="five_8" onkeyup="five_8valid()">
+                <div class="vazio"></div>
+            </div>
+            <div class="column 9">
+                <div class="num" onclick="ax_11()" id="num_11">11↓</div>
+                <input type="text" id="a_9" onkeyup="a_9valid()">
+                <input type="text" id="d_9" onkeyup="d_9valid()">
+                <input type="text" id="d_9_2" onkeyup="d_9_2valid()">
+                <input type="text" id="r_9" onkeyup="r_9valid()">
+                <input type="text" id="e_9" onkeyup="e_9valid()">
+                <input type="text" id="s_9" onkeyup="s_9valid()">
+                <input type="text" id="s_9_2" onkeyup="s_9_2valid()">
+                <input type="text" id="b_9" onkeyup="b_9valid()">
+                <input type="text" id="u_9" onkeyup="u_9valid()">
+                <input type="text" id="s_9_3" onkeyup="s_9_3valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -238,31 +232,14 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
             </div>
-            <div class="column12">
+            <div class="column 10">
                 <div class="vazio"></div>
+                <input type="text" id="s_10" onkeyup="s_10valid()">
                 <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="s">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-            </div>
-            <div class="column13">
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="s">
-                <input type="text" name="" id="s">
+                <div class="num" onclick="ax_9()" id="num_9">9↓</div>
+                <input type="text" id="d_10" onkeyup="d_10valid()">
+                <input type="text" id="m_10" onkeyup="m_10valid()">
+                <input type="text" id="a_10" onkeyup="a_10valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -274,17 +251,18 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
             </div>
-            <div class="column14">
+            <div class="column 11">
                 <div class="vazio"></div>
-                <div class="vazio"></div>
-                <input type="text" name="" id="d">
-                <input type="text" name="" id="u">
-                <input type="text" name="" id="a">
-                <input type="text" name="" id="l">
-                <input type="text" name="" id="c">
-                <input type="text" name="" id="o">
-                <input type="text" name="" id="r">
-                <input type="text" name="" id="e">
+                <input type="text" id="h_11" onkeyup="h_11valid()">
+                <div class="num"onclick="ax_16()" id="num_16">16↓</div>
+                <input type="text" name="" id="q_11" onkeyup="q_11valid()">
+                <input type="text" name="" id="u_11" onkeyup="u_11valid()">
+                <input type="text" name="" id="a_11" onkeyup="a_11valid()">
+                <input type="text" name="" id="d_11" onkeyup="d_11valid()">
+                <input type="text" name="" id="c_11" onkeyup="c_11valid()">
+                <input type="text" name="" id="o_11" onkeyup="o_11valid()">
+                <input type="text" name="" id="r_11" onkeyup="r_11valid()">
+                <input type="text" name="" id="e_11" onkeyup="e_11valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -292,13 +270,71 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
             </div>
-            <div class="column15">
+            <div class="column 12">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" name="" id="s">
+                <input type="text" id="s_12" onkeyup="s_12valid()">
+                <div class="num"onclick="ax_2()" id="num_2">2→</div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+            </div>
+            <div class="column 13">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <input type="text" id="s_13" onkeyup="s_13valid()">
+                <input type="text" id="u_13_2" onkeyup="u_13_2valid()">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+            </div>
+            <div class="column 14">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="num" onclick="ax_15()" id="num_15">15↓</div>
+                <input type="text" id="d_14" onkeyup="d_14valid()">
+                <input type="text" id="u_14" onkeyup="u_14valid()">
+                <input type="text" id="a_14" onkeyup="a_14valid()">
+                <input type="text" id="l_14" onkeyup="l_14valid()">
+                <input type="text" id="c_14" onkeyup="c_14valid()">
+                <input type="text" id="o_14" onkeyup="o_14valid()">
+                <input type="text" id="r_14" onkeyup="r_14valid()">
+                <input type="text" id="e_14" onkeyup="e_14valid()">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+            </div>
+            <div class="column 15">
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <div class="vazio"></div>
+                <input type="text" id="a_15" onkeyup="a_15valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
