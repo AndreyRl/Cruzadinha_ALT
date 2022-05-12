@@ -1,5 +1,6 @@
 // MEMÓRIA DE MASSA______________________________________________
 
+
 function m_1valid() {
     var ax_m1 = m_1.value;
     if (ax_m1 == "m") {
@@ -158,7 +159,7 @@ function u_5valid() {
         u_5.style.border = "1px solid #cc00ff";
     }
 }
-____________________________________________________
+// ____________________________________________________
 
 // REGISTRADORES_______________________________________
 
@@ -361,7 +362,7 @@ function m_8valid() {
         m_8.style.border = "1px solid #cc00ff";
     }
 }
-______________________________________________________________
+// ______________________________________________________________
 
 
 // DATABUS_______________________________________________________
@@ -689,6 +690,9 @@ function e_14valid() {
 
 
 function ax_1() {
+    c_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    p_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    u_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
     text_1.style.color      = "red";
     text_2.style.color      = "black";
     text_3.style.color      = "black";
@@ -706,6 +710,9 @@ function ax_1() {
     text_16.style.color     = "black";
 }
 function ax_2() {
+    a_15.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    l_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    u_13_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
     text_1.style.color      = "black";
     text_2.style.color      = "red";
     text_3.style.color      = "black";
@@ -723,6 +730,19 @@ function ax_2() {
     text_16.style.color     = "black";
 }
 function ax_3() {
+    r_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    e_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    g_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    i_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    s_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    t_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    r_6_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    a_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    d_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    o_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    r_6_3.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    e_6_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
+    s_6_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
     text_1.style.color      = "black";
     text_2.style.color      = "black";
     text_3.style.color      = "red";
@@ -943,4 +963,350 @@ function ax_16() {
     text_13_14.style.color  = "black";
     text_15.style.color     = "black";
     text_16.style.color     = "red";
+}
+
+
+// if (ax_m_1 == "m" && ax_e_2 == "e" && ax_m_3 == "m" ) {
+    
+    function eprom1() {
+        if (e_4.value == "e" && p_4.value == "p" && r_4.value == "r"
+            && o_4.value == "o" && m_4.value == "m") {
+            e_4.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            p_4.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            r_4.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            o_4.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            m_4.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+            
+            e_4.style.border = "1px solid #cc00ff";
+            p_4.style.border = "1px solid #cc00ff";
+            r_4.style.border = "1px solid #cc00ff";
+            o_4.style.border = "1px solid #cc00ff";
+            m_4.style.border = "1px solid #cc00ff";
+        } else {
+            e_4.style.boxShadow = "none";
+            p_4.style.boxShadow = "none";
+            r_4.style.boxShadow = "none";
+            o_4.style.boxShadow = "none";
+            m_4.style.boxShadow = "none";
+        }
+    }
+
+    function memoria() {
+        if (m_1.value == "m" && e_2.value == "e" && m_3.value == "m"
+            && o_4.value == "o" && r_5.value == "r" && i_6.value == "i"
+             && a_7.value == "a" && d_8.value == "d" && e_9.value == "e"
+              && m_10.value == "m" && a_11.value == "a" && s_12.value == "s"
+               && s_13.value == "s" && a_14.value == "a") {
+
+            m_1.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            e_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            m_3.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            o_4.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            r_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            i_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            a_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            d_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            e_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            m_10.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            a_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            s_12.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            s_13.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            a_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+            m_1.style.border = "1px solid #cc00ff";
+            e_2.style.border = "1px solid #cc00ff";
+            m_3.style.border = "1px solid #cc00ff";
+            o_4.style.border = "1px solid #cc00ff";
+            r_5.style.border = "1px solid #cc00ff";
+            i_6.style.border = "1px solid #cc00ff";
+            a_7.style.border = "1px solid #cc00ff";
+            d_8.style.border = "1px solid #cc00ff";
+            e_9.style.border = "1px solid #cc00ff";
+            m_10.style.border = "1px solid #cc00ff";
+            a_11.style.border = "1px solid #cc00ff";
+            s_12.style.border = "1px solid #cc00ff";
+            s_13.style.border = "1px solid #cc00ff";
+            a_14.style.border = "1px solid #cc00ff";
+
+        } else {
+            m_1.style.boxShadow = "none";
+            e_2.style.boxShadow = "none";
+            m_3.style.boxShadow = "none";
+            o_4.style.boxShadow = "none";
+            r_5.style.boxShadow = "none";
+            i_6.style.boxShadow = "none";
+            a_7.style.boxShadow = "none";
+            d_8.style.boxShadow = "none";
+            e_9.style.boxShadow = "none";
+            m_10.style.boxShadow = "none";
+            a_11.style.boxShadow = "none";
+            s_12.style.boxShadow = "none";
+            s_13.style.boxShadow = "none";
+            a_14.style.boxShadow = "none";
+        }
+    }
+
+function cpu() {
+    if (c_5.value == "c" && p_5.value == "p" && u_5.value == "u") {
+        c_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        p_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        u_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        c_5.style.border = "1px solid #cc00ff";
+        p_5.style.border = "1px solid #cc00ff";
+        u_5.style.border = "1px solid #cc00ff";
+    } else {
+        c_5.style.boxShadow = "none";
+        p_5.style.boxShadow = "none";
+        u_5.style.boxShadow = "none";
+    }
+}
+
+function ram() {
+    if (r_5_2.value == "r" && a_6.value == "a" && m_7.value == "m") {
+        r_5_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        a_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        m_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        r_5_2.style.border = "1px solid #cc00ff";
+        a_6.style.border = "1px solid #cc00ff";
+        m_7.style.border = "1px solid #cc00ff";
+    } else {
+        r_5_2.style.boxShadow = "none";
+        a_6.style.boxShadow = "none";
+        m_7.style.boxShadow = "none";
+    }
+}
+
+function rom() {
+    if (r_6_3.value == "r" && o_7.value == "o" && m_8.value == "m") {
+        r_6_3.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        o_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        m_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        r_6_3.style.border = "1px solid #cc00ff";
+        o_7.style.border = "1px solid #cc00ff";
+        m_8.style.border = "1px solid #cc00ff";
+    } else {
+        r_6_3.style.boxShadow = "none";
+        o_7.style.boxShadow = "none";
+        m_8.style.boxShadow = "none";
+    }
+}
+
+function five5() {
+    if (i_7.value == "i" && five_8.value == 5) {
+        i_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        five_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        i_7.style.border = "1px solid #cc00ff";
+        five_8.style.border = "1px solid #cc00ff";
+    } else {
+        i_7.style.boxShadow = "none";
+        five_8.style.boxShadow = "none";
+    }
+}
+function seven7() {
+    if (i_7.value == "i" && seven_7.value == 7) {
+        i_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        seven_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        i_7.style.border = "1px solid #cc00ff";
+        seven_7.style.border = "1px solid #cc00ff";
+    } else {
+        i_7.style.boxShadow = "none";
+        seven_7.style.boxShadow = "none";
+    }
+}
+
+function flash() {
+    if (f_7.value == "f" && l_8.value == "l" && a_9.value == "a"
+        && s_10.value == "s" && h_11.value == "h") {
+        f_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        l_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        a_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        s_10.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        h_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        f_7.style.border = "1px solid #cc00ff";
+        l_8.style.border = "1px solid #cc00ff";
+        a_9.style.border = "1px solid #cc00ff";
+        s_10.style.border = "1px solid #cc00ff";
+        h_11.style.border = "1px solid #cc00ff";
+    } else {
+        f_7.style.boxShadow = "none";
+        l_8.style.boxShadow = "none";
+        a_9.style.boxShadow = "none";
+        s_10.style.boxShadow = "none";
+        h_11.style.boxShadow = "none";
+    }
+}
+
+function ula() {
+    if (u_13_2.value == "u" && l_14.value == "l" && a_15.value == "a") {
+        u_13_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        l_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        a_15.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        u_13_2.style.border = "1px solid #cc00ff";
+        l_14.style.border = "1px solid #cc00ff";
+        a_15.style.border = "1px solid #cc00ff";
+    } else {
+        u_13_2.style.boxShadow = "none";
+        l_14.style.boxShadow = "none";
+        a_15.style.boxShadow = "none";
+    }
+}
+
+function databus() {
+    if (d_8.value == "d" && a_8.value == "a" && t_8.value == "t"
+        && a_8_2.value == "a" && b_8.value == "b" && u_8.value == "u"
+        && s_8.value == "s") {
+        d_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        a_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        t_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        a_8_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        b_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        u_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        s_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        d_8.style.border = "1px solid #cc00ff";
+        a_8.style.border = "1px solid #cc00ff";
+        t_8.style.border = "1px solid #cc00ff";
+        a_8_2.style.border = "1px solid #cc00ff";
+        b_8.style.border = "1px solid #cc00ff";
+        u_8.style.border = "1px solid #cc00ff";
+        s_8.style.border = "1px solid #cc00ff";
+    } else {
+        d_8.style.boxShadow = "none";
+        a_8.style.boxShadow = "none";
+        t_8.style.boxShadow = "none";
+        a_8_2.style.boxShadow = "none";
+        b_8.style.boxShadow = "none";
+        u_8.style.boxShadow = "none";
+        s_8.style.boxShadow = "none";
+    }
+}
+
+function address() {
+    if (a_9.value == "a" && d_9.value == "d" && d_9_2.value == "d"
+        && r_9.value == "r" && e_9.value == "e" && s_9.value == "s"
+        && s_9_2.value == "s" && b_9.value == "b" && u_9.value == "u"
+         && s_9_3.value == "s") {
+        a_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        d_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        d_9_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        r_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        e_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        s_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        s_9_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        b_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        u_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        s_9_3.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        a_9.style.border = "1px solid #cc00ff";
+        d_9.style.border = "1px solid #cc00ff";
+        d_9_2.style.border = "1px solid #cc00ff";
+        r_9.style.border = "1px solid #cc00ff";
+        e_9.style.border = "1px solid #cc00ff";
+        s_9.style.border = "1px solid #cc00ff";
+        s_9_2.style.border = "1px solid #cc00ff";
+        b_9.style.border = "1px solid #cc00ff";
+        u_9.style.border = "1px solid #cc00ff";
+        s_9_3.style.border = "1px solid #cc00ff";
+    } else {
+        a_9.style.boxShadow = "none";
+        d_9.style.boxShadow = "none";
+        d_9_2.style.boxShadow = "none";
+        r_9.style.boxShadow = "none";
+        e_9.style.boxShadow = "none";
+        s_9.style.boxShadow = "none";
+        s_9_2.style.boxShadow = "none";
+        b_9.style.boxShadow = "none";
+        u_9.style.boxShadow = "none";
+        s_9_3.style.boxShadow = "none";
+    }
+}
+
+function dma() {
+    if (d_10.value == "d" && m_10.value == "m" && a_10.value == "a") {
+        d_10.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        m_10.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        a_10.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        d_10.style.border = "1px solid #cc00ff";
+        m_10.style.border = "1px solid #cc00ff";
+        a_10.style.border = "1px solid #cc00ff";
+    } else {
+        d_10.style.boxShadow = "none";
+        m_10.style.boxShadow = "none";
+        a_10.style.boxShadow = "none";
+    }
+}
+
+function quad() {
+    if (q_11.value == "q" && u_11.value == "u" && a_11.value == "a"
+         && d_11.value == "d" && c_11.value == "c" && o_11.value == "o"
+          && r_11.value == "r"&& e_11.value == "e") {
+        q_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        u_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        a_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        d_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        c_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        o_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        r_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        e_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        q_11.style.border = "1px solid #cc00ff";
+        u_11.style.border = "1px solid #cc00ff";
+        a_11.style.border = "1px solid #cc00ff";
+        d_11.style.border = "1px solid #cc00ff";
+        c_11.style.border = "1px solid #cc00ff";
+        o_11.style.border = "1px solid #cc00ff";
+        r_11.style.border = "1px solid #cc00ff";
+        e_11.style.border = "1px solid #cc00ff";
+    } else {
+        q_11.style.boxShadow = "none";
+        u_11.style.boxShadow = "none";
+        a_11.style.boxShadow = "none";
+        d_11.style.boxShadow = "none";
+        c_11.style.boxShadow = "none";
+        o_11.style.boxShadow = "none";
+        r_11.style.boxShadow = "none";
+        e_11.style.boxShadow = "none";
+    }
+}
+
+function dual() {
+    if (d_14.value == "d" && u_14.value == "u" && a_14.value == "a"
+    && l_14.value == "l" && c_14.value == "c" && o_14.value == "o"
+     && r_14.value == "r" && e_14.value == "e") {
+        d_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        u_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        a_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        l_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        c_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        o_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        r_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        e_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        d_14.style.border = "1px solid #cc00ff";
+        u_14.style.border = "1px solid #cc00ff";
+        a_14.style.border = "1px solid #cc00ff";
+        l_14.style.border = "1px solid #cc00ff";
+        c_14.style.border = "1px solid #cc00ff";
+        o_14.style.border = "1px solid #cc00ff";
+        r_14.style.border = "1px solid #cc00ff";
+        e_14.style.border = "1px solid #cc00ff";
+    } else {
+        d_14.style.boxShadow = "none";
+        u_14.style.boxShadow = "none";
+        a_14.style.boxShadow = "none";
+        l_14.style.boxShadow = "none";
+        c_14.style.boxShadow = "none";
+        o_14.style.boxShadow = "none";
+        r_14.style.boxShadow = "none";
+        e_14.style.boxShadow = "none";
+    }
 }

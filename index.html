@@ -67,7 +67,7 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" id="m_1" onkeyup ="m_1valid()">
+                <input type="text" id="m_1" onchange="memoria()" onkeyup ="m_1valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -86,7 +86,7 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" id="e_2" onkeyup="e_2valid()">
+                <input type="text" id="e_2" onchange="memoria()" onkeyup="e_2valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -105,7 +105,7 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" id="m_3" onkeyup="m_3valid()">
+                <input type="text" id="m_3" onchange="memoria()" onkeyup="m_3valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -121,11 +121,11 @@
             <div class="column 4">
                 <div class="vazio"></div>
                 <div class="num" onclick="ax_6()" id="num_6">6↓</div>
-                <input type="text" id="e_4" onkeyup="e_4valid()">
-                <input type="text" id="p_4" onkeyup="p_4valid()">
-                <input type="text" id="r_4" onkeyup="r_4valid()">
-                <input type="text" id="o_4" onkeyup="o_4valid()">
-                <input type="text" id="m_4" onkeyup="m_4valid()">
+                <input type="text" id="e_4" onchange="eprom1()" onkeyup="e_4valid()">
+                <input type="text" id="p_4" onchange="eprom1()" onkeyup="p_4valid()">
+                <input type="text" id="r_4" onchange="eprom1()" onkeyup="r_4valid()">
+                <input type="text" id="o_4" onchange="memoria()" onchange="eprom1()" onkeyup="o_4valid()">
+                <input type="text" id="m_4" onchange="eprom1()" onkeyup="m_4valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="num" onclick="ax_4()" id="num_4">4→</div>
@@ -143,33 +143,33 @@
                 <div class="num" onclick="ax_3()" id="num_3">3→</div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" id="r_5" onkeyup="r_5valid()">
+                <input type="text" id="r_5" onchange="memoria()" onkeyup="r_5valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" id="r_5_2" onkeyup="r_5_2valid()">
+                <input type="text" id="r_5_2" onchange="ram()" onkeyup="r_5_2valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="num" onclick="ax_5()" id="num_5">5→</div>
                 <div class="num" onclick="ax_1()" id="num_1">1↓</div>
-                <input type="text" id="c_5" onkeyup="c_5valid()">
-                <input type="text" id="p_5" onkeyup="p_5valid()">
-                <input type="text" id="u_5" onkeyup="u_5valid()">
+                <input type="text" id="c_5" onchange="cpu()" onkeyup="c_5valid()">
+                <input type="text" id="p_5" onchange="cpu()" onkeyup="p_5valid()">
+                <input type="text" id="u_5" onchange="cpu()" onkeyup="u_5valid()">
             </div>
             <div class="column 6">
                 <div class="vazio"></div>
                 <div class="num" onclick="ax_7()" id="num_7">7→</div>
-                <input type="text" id="r_6" onkeyup="r_6valid()">
+                <input type="text" id="r_6" onchange="" onkeyup="r_6valid()">
                 <input type="text" id="e_6" onkeyup="e_6valid()">
                 <input type="text" id="g_6" onkeyup="g_6valid()">
-                <input type="text" id="i_6" onkeyup="i_6valid()">
+                <input type="text" id="i_6" onchange="memoria()" onkeyup="i_6valid()">
                 <input type="text" id="s_6" onkeyup="s_6valid()">
                 <input type="text" id="t_6" onkeyup="t_6valid()">
                 <input type="text" id="r_6_2" onkeyup="r_6_2valid()">
-                <input type="text" id="a_6" onkeyup="a_6valid()">
+                <input type="text" id="a_6" onchange="ram()" onkeyup="a_6valid()">
                 <input type="text" id="d_6" onkeyup="d_6valid()">
                 <input type="text" id="o_6" onkeyup="o_6valid()">
-                <input type="text" id="r_6_3" onkeyup="r_6_3valid()">
+                <input type="text" id="r_6_3" onchange="rom()" onkeyup="r_6_3valid()">
                 <input type="text" id="e_6_2" onkeyup="e_6_2valid()">
                 <input type="text" id="s_6_2" onkeyup="s_6_2valid()">
                 <div class="num" onclick="ax_13_14()" id="num_13">13→</div>
@@ -177,54 +177,54 @@
             </div>
             <div class="column 7">
                 <div class="vazio"></div>
-                <input type="text" id="f_7" onkeyup="f_7valid()">
+                <input type="text" id="f_7" onchange="flash()" onkeyup="f_7valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" id="a_7" onkeyup="a_7valid()">
+                <input type="text" id="a_7" onchange="memoria()" onkeyup="a_7valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" id="m_7" onkeyup="m_7valid()">
+                <input type="text" id="m_7" onchange="ram()" onkeyup="m_7valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" id="o_7" onkeyup="o_7valid()">
+                <input type="text" id="o_7" onchange="rom()" onkeyup="o_7valid()">
                 <div class="vazio"></div>
                 <div class="num" onclick="ax_13_14()" id="num_14">14↓</div>
-                <input type="text" id="i_7" onkeyup="i_7valid()">
-                <input type="text" id="seven_7" onkeyup="seven_7valid()">
+                <input type="text" id="i_7" onchange="seven7()" onchange="five5()" onkeyup="i_7valid()">
+                <input type="text" id="seven_7" onchange="seven7()" onkeyup="seven_7valid()">
             </div>
             <div class="column 8">
                 <div class="vazio"></div>
-                <input type="text" id="l_8" onkeyup="l_8valid()">
+                <input type="text" id="l_8" onchange="flash()" onkeyup="l_8valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="num" onclick="ax_12()" id="num_12">12↓</div>
-                <input type="text" id="d_8" onkeyup="d_8valid()">
-                <input type="text" id="a_8" onkeyup="a_8valid()">
-                <input type="text" id="t_8" onkeyup="t_8valid()">
-                <input type="text" id="a_8_2" onkeyup="a_8_2valid()">
-                <input type="text" id="b_8" onkeyup="b_8valid()">
-                <input type="text" id="u_8" onkeyup="u_8valid()">
-                <input type="text" id="s_8" onkeyup="s_8valid()">
-                <input type="text" id="m_8" onkeyup="m_8valid()">
+                <input type="text" id="d_8" onchange="databus()" onchange="memoria()" onkeyup="d_8valid()">
+                <input type="text" id="a_8" onchange="databus()" onkeyup="a_8valid()">
+                <input type="text" id="t_8" onchange="databus()" onkeyup="t_8valid()">
+                <input type="text" id="a_8_2" onchange="databus()" onkeyup="a_8_2valid()">
+                <input type="text" id="b_8" onchange="databus()" onkeyup="b_8valid()">
+                <input type="text" id="u_8" onchange="databus()" onkeyup="u_8valid()">
+                <input type="text" id="s_8" onchange="databus()" onkeyup="s_8valid()">
+                <input type="text" id="m_8" onchange="rom()" onkeyup="m_8valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" id="five_8" onkeyup="five_8valid()">
+                <input type="text" id="five_8" onchange="five5()" onkeyup="five_8valid()">
                 <div class="vazio"></div>
             </div>
             <div class="column 9">
                 <div class="num" onclick="ax_11()" id="num_11">11↓</div>
-                <input type="text" id="a_9" onkeyup="a_9valid()">
-                <input type="text" id="d_9" onkeyup="d_9valid()">
-                <input type="text" id="d_9_2" onkeyup="d_9_2valid()">
-                <input type="text" id="r_9" onkeyup="r_9valid()">
-                <input type="text" id="e_9" onkeyup="e_9valid()">
-                <input type="text" id="s_9" onkeyup="s_9valid()">
-                <input type="text" id="s_9_2" onkeyup="s_9_2valid()">
-                <input type="text" id="b_9" onkeyup="b_9valid()">
-                <input type="text" id="u_9" onkeyup="u_9valid()">
-                <input type="text" id="s_9_3" onkeyup="s_9_3valid()">
+                <input type="text" id="a_9" onchange="address()" onchange="flash()" onkeyup="a_9valid()">
+                <input type="text" id="d_9" onchange="address()" onkeyup="d_9valid()">
+                <input type="text" id="d_9_2" onchange="address()" onkeyup="d_9_2valid()">
+                <input type="text" id="r_9" onchange="address()" onkeyup="r_9valid()">
+                <input type="text" id="e_9" onchange="address()" onchange="memoria()" onkeyup="e_9valid()">
+                <input type="text" id="s_9" onchange="address()" onkeyup="s_9valid()">
+                <input type="text" id="s_9_2" onchange="address()" onkeyup="s_9_2valid()">
+                <input type="text" id="b_9" onchange="address()" onkeyup="b_9valid()">
+                <input type="text" id="u_9" onchange="address()" onkeyup="u_9valid()">
+                <input type="text" id="s_9_3" onchange="address()" onkeyup="s_9_3valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -234,12 +234,12 @@
             </div>
             <div class="column 10">
                 <div class="vazio"></div>
-                <input type="text" id="s_10" onkeyup="s_10valid()">
+                <input type="text" id="s_10" onchange="flash()" onkeyup="s_10valid()">
                 <div class="vazio"></div>
                 <div class="num" onclick="ax_9()" id="num_9">9↓</div>
-                <input type="text" id="d_10" onkeyup="d_10valid()">
-                <input type="text" id="m_10" onkeyup="m_10valid()">
-                <input type="text" id="a_10" onkeyup="a_10valid()">
+                <input type="text" id="d_10" onchange="dma()" onkeyup="d_10valid()">
+                <input type="text" id="m_10" onchange="dma()" onchange="memoria()" onkeyup="m_10valid()">
+                <input type="text" id="a_10" onchange="dma()" onkeyup="a_10valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -253,16 +253,16 @@
             </div>
             <div class="column 11">
                 <div class="vazio"></div>
-                <input type="text" id="h_11" onkeyup="h_11valid()">
+                <input type="text" id="h_11" onchange="flash()" onkeyup="h_11valid()">
                 <div class="num"onclick="ax_16()" id="num_16">16↓</div>
-                <input type="text" name="" id="q_11" onkeyup="q_11valid()">
-                <input type="text" name="" id="u_11" onkeyup="u_11valid()">
-                <input type="text" name="" id="a_11" onkeyup="a_11valid()">
-                <input type="text" name="" id="d_11" onkeyup="d_11valid()">
-                <input type="text" name="" id="c_11" onkeyup="c_11valid()">
-                <input type="text" name="" id="o_11" onkeyup="o_11valid()">
-                <input type="text" name="" id="r_11" onkeyup="r_11valid()">
-                <input type="text" name="" id="e_11" onkeyup="e_11valid()">
+                <input type="text" name="" id="q_11" onchange="quad()" onkeyup="q_11valid()">
+                <input type="text" name="" id="u_11" onchange="quad()" onkeyup="u_11valid()">
+                <input type="text" name="" id="a_11" onchange="quad()" onchange="memoria()" onkeyup="a_11valid()">
+                <input type="text" name="" id="d_11" onchange="quad()" onkeyup="d_11valid()">
+                <input type="text" name="" id="c_11" onchange="quad()" onkeyup="c_11valid()">
+                <input type="text" name="" id="o_11" onchange="quad()" onkeyup="o_11valid()">
+                <input type="text" name="" id="r_11" onchange="quad()" onkeyup="r_11valid()">
+                <input type="text" name="" id="e_11" onchange="quad()" onkeyup="e_11valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -276,7 +276,7 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" id="s_12" onkeyup="s_12valid()">
+                <input type="text" id="s_12" onchange="memoria()" onkeyup="s_12valid()">
                 <div class="num"onclick="ax_2()" id="num_2">2→</div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -295,8 +295,8 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" id="s_13" onkeyup="s_13valid()">
-                <input type="text" id="u_13_2" onkeyup="u_13_2valid()">
+                <input type="text" id="s_13" onchange="memoria()" onkeyup="s_13valid()">
+                <input type="text" id="u_13_2" onchange="ula()" onkeyup="u_13_2valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -312,14 +312,14 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="num" onclick="ax_15()" id="num_15">15↓</div>
-                <input type="text" id="d_14" onkeyup="d_14valid()">
-                <input type="text" id="u_14" onkeyup="u_14valid()">
-                <input type="text" id="a_14" onkeyup="a_14valid()">
-                <input type="text" id="l_14" onkeyup="l_14valid()">
-                <input type="text" id="c_14" onkeyup="c_14valid()">
-                <input type="text" id="o_14" onkeyup="o_14valid()">
-                <input type="text" id="r_14" onkeyup="r_14valid()">
-                <input type="text" id="e_14" onkeyup="e_14valid()">
+                <input type="text" id="d_14" onchange=" dual()" onkeyup="d_14valid()">
+                <input type="text" id="u_14" onchange=" dual()" onkeyup="u_14valid()">
+                <input type="text" id="a_14" onchange=" dual()" onchange="memoria()" onkeyup="a_14valid()">
+                <input type="text" id="l_14" onchange=" dual()" onchange="ula()" onkeyup="l_14valid()">
+                <input type="text" id="c_14" onchange=" dual()" onkeyup="c_14valid()">
+                <input type="text" id="o_14" onchange=" dual()" onkeyup="o_14valid()">
+                <input type="text" id="r_14" onchange=" dual()" onkeyup="r_14valid()">
+                <input type="text" id="e_14" onchange=" dual()" onkeyup="e_14valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -334,7 +334,7 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
-                <input type="text" id="a_15" onkeyup="a_15valid()">
+                <input type="text" id="a_15" onchange="ula()" onkeyup="a_15valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -353,3 +353,17 @@
     
 </body>
 </html>
+
+<script>
+
+if (elemento == "e" ) {
+    // e_4.style.boxShadow = "0px 1px 5px 1px #0004ff";
+    // p_4.style.boxShadow = "0px 1px 5px 1px #0004ff";
+    // r_4.style.boxShadow = "0px 1px 5px 1px #0004ff";
+    // o_4.style.boxShadow = "0px 1px 5px 1px #0004ff";
+    // m_4.style.boxShadow = "0px 1px 5px 1px #0004ff";
+    alert(`teste`)
+    var elemento = document.getElementById(e_4.value)
+} 
+
+</script>
