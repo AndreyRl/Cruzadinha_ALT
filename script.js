@@ -1310,3 +1310,52 @@ function dual() {
         e_14.style.boxShadow = "none";
     }
 }
+
+function registrador () {
+    if (r_6.value == "r" && e_6.value == "e" && g_6.value == "g"
+    && i_6.value == "i" && s_6.value == "s" && t_6.value == "t"
+     && r_6_2.value == "r" && a_6.value == "a" && d_6.value == "d" && o_6.value == "o" && r_6_3.value == "r" && e_6_2.value == "e" && s_6_2.value == "s") {
+     d_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        r_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        e_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        g_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        i_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        s_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        t_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        r_6_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        a_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        d_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        o_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        r_6_3.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        e_6_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        s_6_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        r_6.style.border = "1px solid #cc00ff";
+        e_6.style.border = "1px solid #cc00ff";
+        g_6.style.border = "1px solid #cc00ff";
+        i_6.style.border = "1px solid #cc00ff";
+        s_6.style.border = "1px solid #cc00ff";
+        t_6.style.border = "1px solid #cc00ff";
+        r_6_2.style.border = "1px solid #cc00ff";
+        a_6.style.border = "1px solid #cc00ff";
+        d_6.style.border = "1px solid #cc00ff";
+        o_6.style.border = "1px solid #cc00ff";
+        r_6_3.style.border = "1px solid #cc00ff";
+        e_6_2.style.border = "1px solid #cc00ff";
+        s_6_2.style.border = "1px solid #cc00ff";
+    } else {
+        r_6.style.boxShadow = "none";
+        e_6.style.boxShadow = "none";
+        g_6.style.boxShadow = "none";
+        i_6.style.boxShadow = "none";
+        s_6.style.boxShadow = "none";
+        t_6.style.boxShadow = "none";
+        r_6_2.style.boxShadow = "none";
+        a_6.style.boxShadow = "none";
+        d_6.style.boxShadow = "none";
+        o_6.style.boxShadow = "none";
+        r_6_3.style.boxShadow = "none";
+        e_6_2.style.boxShadow = "none";
+        s_6_2.style.boxShadow = "none";
+    }
+}
