@@ -43,7 +43,7 @@ input {
     height: 3vh;
     border-radius: 5px;
     border: 1px solid #cc00ff;
-    background-color: rgb(0, 0, 0);
+    background-color: #cfcfcf;
     text-align: center;
     margin-right:  4px;
     margin-bottom: 3px;
@@ -51,7 +51,6 @@ input {
     font-size: 0.9em;
     font-weight: 600;
     text-transform: uppercase;
-    color: white;
 }
 
 .row {
