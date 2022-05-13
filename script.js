@@ -993,21 +993,21 @@ function ax_16() {
     }
 
     function memoria() {
-        if (m_1.value == "m" && e_2.value == "e" && m_3.value == "m"
+        if ( m_1.value == "m" && e_2.value == "e" && m_3.value == "m"
             && o_4.value == "o" && r_5.value == "r" && i_6.value == "i"
-             && a_7.value == "a" && d_8.value == "d" && e_9.value == "e"
-              && m_10.value == "m" && a_11.value == "a" && s_12.value == "s"
-               && s_13.value == "s" && a_14.value == "a") {
+            && a_7.value == "a" && d_8.value == "d" && e_9.value == "e"
+            && m_10.value == "m" && a_11.value == "a" && s_12.value == "s"
+            && s_13.value == "s" && a_14.value == "a") {
 
-            m_1.style.boxShadow = "0px 1px 5px 1px #c300ff";
-            e_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
-            m_3.style.boxShadow = "0px 1px 5px 1px #c300ff";
-            o_4.style.boxShadow = "0px 1px 5px 1px #c300ff";
-            r_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
-            i_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
-            a_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
-            d_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
-            e_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
+            m_1.style.boxShadow  = "0px 1px 5px 1px #c300ff";
+            e_2.style.boxShadow  = "0px 1px 5px 1px #c300ff";
+            m_3.style.boxShadow  = "0px 1px 5px 1px #c300ff";
+            o_4.style.boxShadow  = "0px 1px 5px 1px #c300ff";
+            r_5.style.boxShadow  = "0px 1px 5px 1px #c300ff";
+            i_6.style.boxShadow  = "0px 1px 5px 1px #c300ff";
+            a_7.style.boxShadow  = "0px 1px 5px 1px #c300ff";
+            d_8.style.boxShadow  = "0px 1px 5px 1px #c300ff";
+            e_9.style.boxShadow  = "0px 1px 5px 1px #c300ff";
             m_10.style.boxShadow = "0px 1px 5px 1px #c300ff";
             a_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
             s_12.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1311,11 +1311,12 @@ function dual() {
     }
 }
 
-function registrador () {
+function registrador() {
     if (r_6.value == "r" && e_6.value == "e" && g_6.value == "g"
     && i_6.value == "i" && s_6.value == "s" && t_6.value == "t"
-     && r_6_2.value == "r" && a_6.value == "a" && d_6.value == "d" && o_6.value == "o" && r_6_3.value == "r" && e_6_2.value == "e" && s_6_2.value == "s") {
-     d_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
+     && r_6_2.value == "r" && a_6.value == "a" && d_6.value == "d"
+      && o_6.value == "o" && r_6_3.value == "r" && e_6_2.value == "e"
+       && s_6_2.value == "s") {
         r_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
         e_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
         g_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1356,6 +1357,19 @@ function registrador () {
         o_6.style.boxShadow = "none";
         r_6_3.style.boxShadow = "none";
         e_6_2.style.boxShadow = "none";
+        s_6_2.style.boxShadow = "none";
+    }
+}
+
+function cs1() {
+    if (c_5.value == "c" && s_6_2.value == "s") {
+        c_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
+        s_6_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
+
+        c_5.style.border = "1px solid #cc00ff";
+        s_6_2.style.border = "1px solid #cc00ff";
+    } else {
+        c_5.style.boxShadow = "none";
         s_6_2.style.boxShadow = "none";
     }
 }

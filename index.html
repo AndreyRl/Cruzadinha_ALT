@@ -9,12 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo2.png" type="image/x-icon">
     <script src="script.js"></script>
 </head>
 <body>
     <div class="all">
+        <img src="logo.png" alt="">
     <h1>Hard-Ware T.I</h1>
 
+    
 <div class="descricao">
 
     <span class="text_desc" id="text_1">1 - Componente relevante do HardWare, responsável pela aritmética básica, lógica, e a entrada e saída de dados..</span><br>
@@ -152,27 +155,27 @@
                 <div class="vazio"></div>
                 <div class="num" onclick="ax_5()" id="num_5">5→</div>
                 <div class="num" onclick="ax_1()" id="num_1">1↓</div>
-                <input type="text" id="c_5" onchange="cpu()" onkeyup="c_5valid()">
+                <input type="text" id="c_5" onchange="cs1()" onchange="cpu()"  onkeyup="c_5valid()">
                 <input type="text" id="p_5" onchange="cpu()" onkeyup="p_5valid()">
                 <input type="text" id="u_5" onchange="cpu()" onkeyup="u_5valid()">
             </div>
             <div class="column 6">
                 <div class="vazio"></div>
-                <div class="num" onclick="ax_7()" onchange="registrador()" id="num_7">7→</div>
-                <input type="text" id="r_6" onchange="registrador()" onkeyup="r_6valid()">
-                <input type="text" id="e_6" onchange="registrador()" onkeyup="e_6valid()">
-                <input type="text" id="g_6" onchange="registrador()" onkeyup="g_6valid()">
-                <input type="text" id="i_6" onchange="registrador()" onchange="memoria()" onkeyup="i_6valid()">
-                <input type="text" id="s_6" onchange="registrador()" onkeyup="s_6valid()">
-                <input type="text" id="t_6" onchange="registrador()" onkeyup="t_6valid()">
-                <input type="text" id="r_6_2" onchange="registrador()" onkeyup="r_6_2valid()">
-                <input type="text" id="a_6" onchange="ram()" onkeyup="a_6valid()">
-                <input type="text" id="d_6" onchange="registrador()" onkeyup="d_6valid()">
-                <input type="text" id="o_6" onchange="registrador()" onkeyup="o_6valid()">
-                <input type="text" id="r_6_3" onchange="registrador()" onchange="rom()" onkeyup="r_6_3valid()">
-                <input type="text" id="e_6_2" onchange="registrador()" onkeyup="e_6_2valid()">
-                <input type="text" id="s_6_2" onchange="registrador()" onkeyup="s_6_2valid()">
-                <div class="num" onclick="ax_13_14()" onchange="registrador()" id="num_13">13→</div>
+                <div class="num" onclick="ax_7()" id="num_7">7→</div>
+                <input type="text" id="r_6" onkeyup="registrador()" onchange="r_6valid()">
+                <input type="text" id="e_6" onkeyup="registrador()" onchange="e_6valid()">
+                <input type="text" id="g_6" onkeyup="registrador()" onchange="g_6valid()">
+                <input type="text" id="i_6" onkeyup="registrador()" onchange="memoria()" onchange="i_6valid()">
+                <input type="text" id="s_6" onkeyup="registrador()" onchange="s_6valid()">
+                <input type="text" id="t_6" onkeyup="registrador()" onchange="t_6valid()">
+                <input type="text" id="r_6_2" onkeyup="registrador()" onchange="r_6_2valid()">
+                <input type="text" id="a_6"  onkeyup="registrador()" onchange="ram()" onchange="a_6valid()">
+                <input type="text" id="d_6" onkeyup="registrador()" onchange="d_6valid()">
+                <input type="text" id="o_6" onkeyup="registrador()" onchange="o_6valid()">
+                <input type="text" id="r_6_3" onkeyup="registrador()" onchange="rom()" onchange="r_6_3valid()">
+                <input type="text" id="e_6_2" onkeyup="registrador()" onchange="e_6_2valid()">
+                <input type="text" id="s_6_2" onchange="cs1()" onkeyup="registrador()"  onchange="s_6_2valid()">
+                <div class="num" onclick="ax_13_14()" id="num_13">13→</div>
                 <div class="vazio"></div>
             </div>
             <div class="column 7">
@@ -200,7 +203,7 @@
                 <div class="vazio"></div>
                 <div class="vazio"></div>
                 <div class="num" onclick="ax_12()" id="num_12">12↓</div>
-                <input type="text" id="d_8" onchange="databus()" onchange="memoria()" onkeyup="d_8valid()">
+                <input type="text" id="d_8" onchange="memoria()" onchange="databus()" onkeyup="d_8valid()">
                 <input type="text" id="a_8" onchange="databus()" onkeyup="a_8valid()">
                 <input type="text" id="t_8" onchange="databus()" onkeyup="t_8valid()">
                 <input type="text" id="a_8_2" onchange="databus()" onkeyup="a_8_2valid()">
@@ -219,7 +222,7 @@
                 <input type="text" id="d_9" onchange="address()" onkeyup="d_9valid()">
                 <input type="text" id="d_9_2" onchange="address()" onkeyup="d_9_2valid()">
                 <input type="text" id="r_9" onchange="address()" onkeyup="r_9valid()">
-                <input type="text" id="e_9" onchange="address()" onchange="memoria()" onkeyup="e_9valid()">
+                <input type="text" id="e_9" onchange="memoria()" onchange="address()" onkeyup="e_9valid()">
                 <input type="text" id="s_9" onchange="address()" onkeyup="s_9valid()">
                 <input type="text" id="s_9_2" onchange="address()" onkeyup="s_9_2valid()">
                 <input type="text" id="b_9" onchange="address()" onkeyup="b_9valid()">
@@ -238,7 +241,7 @@
                 <div class="vazio"></div>
                 <div class="num" onclick="ax_9()" id="num_9">9↓</div>
                 <input type="text" id="d_10" onchange="dma()" onkeyup="d_10valid()">
-                <input type="text" id="m_10" onchange="dma()" onchange="memoria()" onkeyup="m_10valid()">
+                <input type="text" id="m_10" onchange="memoria()" onchange="dma()" onkeyup="m_10valid()">
                 <input type="text" id="a_10" onchange="dma()" onkeyup="a_10valid()">
                 <div class="vazio"></div>
                 <div class="vazio"></div>
@@ -257,7 +260,7 @@
                 <div class="num"onclick="ax_16()" id="num_16">16↓</div>
                 <input type="text" name="" id="q_11" onchange="quad()" onkeyup="q_11valid()">
                 <input type="text" name="" id="u_11" onchange="quad()" onkeyup="u_11valid()">
-                <input type="text" name="" id="a_11" onchange="quad()" onchange="memoria()" onkeyup="a_11valid()">
+                <input type="text" name="" id="a_11"  onchange="memoria()" onchange="quad()" onkeyup="a_11valid()">
                 <input type="text" name="" id="d_11" onchange="quad()" onkeyup="d_11valid()">
                 <input type="text" name="" id="c_11" onchange="quad()" onkeyup="c_11valid()">
                 <input type="text" name="" id="o_11" onchange="quad()" onkeyup="o_11valid()">
@@ -314,7 +317,7 @@
                 <div class="num" onclick="ax_15()" id="num_15">15↓</div>
                 <input type="text" id="d_14" onchange=" dual()" onkeyup="d_14valid()">
                 <input type="text" id="u_14" onchange=" dual()" onkeyup="u_14valid()">
-                <input type="text" id="a_14" onchange=" dual()" onchange="memoria()" onkeyup="a_14valid()">
+                <input type="text" id="a_14"onchange="memoria()" onchange=" dual()" onkeyup="a_14valid()">
                 <input type="text" id="l_14" onchange=" dual()" onchange="ula()" onkeyup="l_14valid()">
                 <input type="text" id="c_14" onchange=" dual()" onkeyup="c_14valid()">
                 <input type="text" id="o_14" onchange=" dual()" onkeyup="o_14valid()">
@@ -353,17 +356,3 @@
     
 </body>
 </html>
-
-<script>
-
-if (elemento == "e" ) {
-    // e_4.style.boxShadow = "0px 1px 5px 1px #0004ff";
-    // p_4.style.boxShadow = "0px 1px 5px 1px #0004ff";
-    // r_4.style.boxShadow = "0px 1px 5px 1px #0004ff";
-    // o_4.style.boxShadow = "0px 1px 5px 1px #0004ff";
-    // m_4.style.boxShadow = "0px 1px 5px 1px #0004ff";
-    alert(`teste`)
-    var elemento = document.getElementById(e_4.value)
-} 
-
-</script>

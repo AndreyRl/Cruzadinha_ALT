@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: #cfcfcf;
     align-items: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -12,8 +12,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid #ff00f2;
-    box-shadow: 0px 1px 20px 1px #c300ff ;
+    border: 3px solid #b100ff;
+    box-shadow: 0px 1px 20px 1px #cc00ff ;
     border-radius: 20px 45px;
     padding: 4vh;
 }
@@ -43,14 +43,15 @@ input {
     height: 3vh;
     border-radius: 5px;
     border: 1px solid #cc00ff;
-    background-color: beige;
+    background-color: rgb(0, 0, 0);
     text-align: center;
     margin-right:  4px;
     margin-bottom: 3px;
     box-shadow: 1px 1px 3px #000000;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 600;
     text-transform: uppercase;
+    color: white;
 }
 
 .row {
@@ -65,8 +66,8 @@ input {
 .column div {
     width: 2vw;
     height: 3vh;
-    border: 2px solid beige;
-    background-color: beige;
+    border: 2px solid #cfcfcf;
+    background-color: #cfcfcf;
     margin-bottom: 0.5px;
     margin-right:  4px;
     margin-bottom: 3px;
@@ -81,4 +82,8 @@ input {
 
 .num {
     cursor: pointer;
+}
+
+img{
+    width: 15vw;
 }
