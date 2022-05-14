@@ -3,7 +3,7 @@
 
 function m_1valid() {
     var ax_m1 = m_1.value;
-    if (ax_m1 == "m") {
+    if (ax_m1 == "m" || ax_m1 == "M") {
         m_1.style.border = "1px solid green" 
     } else  {
         m_1.style.border = "1px solid #cc00ff";
@@ -12,7 +12,7 @@ function m_1valid() {
 
 function e_2valid() {
     var ax_e2 = e_2.value;
-    if (ax_e2 == "e") {
+    if (ax_e2 == "e" || ax_e2 == "E") {
         e_2.style.border = "1px solid green" 
     } else  {
         e_2.style.border = "1px solid #cc00ff";
@@ -21,7 +21,7 @@ function e_2valid() {
 
 function m_3valid() {
     var ax_m3 = m_3.value;
-    if (ax_m3 == "m") {
+    if (ax_m3 == "m" || ax_m3 == "M") {
         m_3.style.border = "1px solid green" 
     } else  {
         m_3.style.border = "1px solid #cc00ff";
@@ -29,7 +29,7 @@ function m_3valid() {
 }
 function r_5valid() {
     var ax_r5 = r_5.value;
-    if (ax_r5 == "r") {
+    if (ax_r5 == "r" || ax_r5 == "R") {
         r_5.style.border = "1px solid green" 
     } else  {
         r_5.style.border = "1px solid #cc00ff";
@@ -38,7 +38,7 @@ function r_5valid() {
 
 function a_7valid() {
     var ax_a7 = a_7.value;
-    if (ax_a7 == "a") {
+    if (ax_a7 == "a" || ax_a7 == "A") {
         a_7.style.border = "1px solid green" 
     } else  {
         a_7.style.border = "1px solid #cc00ff";
@@ -46,7 +46,7 @@ function a_7valid() {
 }
 function s_12valid() {
     var ax_s12 = s_12.value;
-    if (ax_s12 == "s") {
+    if (ax_s12 == "s" || ax_s12 == "S") {
         s_12.style.border = "1px solid green" 
     } else  {
         s_12.style.border = "1px solid #cc00ff";
@@ -54,7 +54,7 @@ function s_12valid() {
 }
 function s_13valid() {
     var ax_s13 = s_13.value;
-    if (ax_s13 == "s") {
+    if (ax_s13 == "s" || ax_s13 == "S") {
         s_13.style.border = "1px solid green" 
     } else  {
         s_13.style.border = "1px solid #cc00ff";
@@ -65,7 +65,7 @@ function s_13valid() {
 
 function e_4valid() {
     var ax_e4 = e_4.value;
-    if (ax_e4 == "e") {
+    if (ax_e4 == "e" || ax_e4 == "E") {
         e_4.style.border = "1px solid green" 
     } else  {
         e_4.style.border = "1px solid #cc00ff";
@@ -74,7 +74,7 @@ function e_4valid() {
 
 function p_4valid() {
     var ax_p4 = p_4.value;
-    if (ax_p4 == "p") {
+    if (ax_p4 == "p" || ax_p4 == "P") {
         p_4.style.border = "1px solid green" 
     } else  {
         p_4.style.border = "1px solid #cc00ff";
@@ -83,7 +83,7 @@ function p_4valid() {
 
 function r_4valid() {
     var ax_r4 = r_4.value;
-    if (ax_r4 == "r") {
+    if (ax_r4 == "r" || ax_r4 == "R") {
         r_4.style.border = "1px solid green" 
     } else  {
         r_4.style.border = "1px solid #cc00ff";
@@ -92,7 +92,7 @@ function r_4valid() {
 
 function o_4valid() {
     var ax_o4 = o_4.value;
-    if (ax_o4 == "o") {
+    if (ax_o4 == "o" || ax_o4 == "O") {
         o_4.style.border = "1px solid green" 
     } else  {
         o_4.style.border = "1px solid #cc00ff";
@@ -101,7 +101,7 @@ function o_4valid() {
 
 function m_4valid() {
     var ax_m4 = m_4.value;
-    if (ax_m4 == "m") {
+    if (ax_m4 == "m" || ax_m4 == "M") {
         m_4.style.border = "1px solid green" 
     } else  {
         m_4.style.border = "1px solid #cc00ff";
@@ -115,7 +115,7 @@ function m_4valid() {
 
 function r_5_2valid() {
     var ax_r5_2 = r_5_2.value;
-    if (ax_r5_2 == "R" || ax_r5_2 == "r") {
+    if (ax_r5_2 == "r" || ax_r5_2 == "R") {
         r_5_2.style.border = "1px solid green" 
     } else  {
         r_5_2.style.border = "1px solid #cc00ff";
@@ -124,7 +124,7 @@ function r_5_2valid() {
 
 function m_7valid() {
     var ax_m7 = m_7.value;
-    if (ax_m7 == "m") {
+    if (ax_m7 == "m" || ax_m7 == "M") {
         m_7.style.border = "1px solid green" 
     } else  {
         m_7.style.border = "1px solid #cc00ff";
@@ -137,7 +137,7 @@ function m_7valid() {
 
 function c_5valid() {
     var ax_c5 = c_5.value;
-    if (ax_c5 == "c") {
+    if (ax_c5 == "c" || ax_c5 == "C") {
         c_5.style.border = "1px solid green" 
     } else  {
         c_5.style.border = "1px solid #cc00ff";
@@ -145,7 +145,7 @@ function c_5valid() {
 }
 function p_5valid() {
     var ax_p5 = p_5.value;
-    if (ax_p5 == "p") {
+    if (ax_p5 == "p" || ax_p5 == "P") {
         p_5.style.border = "1px solid green" 
     } else  {
         p_5.style.border = "1px solid #cc00ff";
@@ -153,7 +153,7 @@ function p_5valid() {
 }
 function u_5valid() {
     var ax_u5 = u_5.value;
-    if (ax_u5 == "u") {
+    if (ax_u5 == "u" || ax_u5 == "U") {
         u_5.style.border = "1px solid green" 
     } else  {
         u_5.style.border = "1px solid #cc00ff";
@@ -165,7 +165,7 @@ function u_5valid() {
 
 function r_6valid() {
     var ax_r6 = r_6.value;
-    if (ax_r6 == "r") {
+    if (ax_r6 == "r" || ax_r6 == "R") {
         r_6.style.border = "1px solid green" 
     } else  {
         r_6.style.border = "1px solid #cc00ff";
@@ -173,7 +173,7 @@ function r_6valid() {
 }
 function e_6valid() {
     var ax_e6 = e_6.value;
-    if (ax_e6 == "e") {
+    if (ax_e6 == "e" || ax_e6 == "E") {
         e_6.style.border = "1px solid green" 
     } else  {
         e_6.style.border = "1px solid #cc00ff";
@@ -181,7 +181,7 @@ function e_6valid() {
 }
 function g_6valid() {
     var ax_g6 = g_6.value;
-    if (ax_g6 == "g") {
+    if (ax_g6 == "g" || ax_g6 == "G") {
         g_6.style.border = "1px solid green" 
     } else  {
         g_6.style.border = "1px solid #cc00ff";
@@ -189,7 +189,7 @@ function g_6valid() {
 }
 function i_6valid() {
     var ax_i6 = i_6.value;
-    if (ax_i6 == "i") {
+    if (ax_i6 == "i" || ax_i6 == "I") {
         i_6.style.border = "1px solid green" 
     } else  {
         i_6.style.border = "1px solid #cc00ff";
@@ -197,7 +197,7 @@ function i_6valid() {
 }
 function s_6valid() {
     var ax_s6 = s_6.value;
-    if (ax_s6 == "s") {
+    if (ax_s6 == "s" || ax_s6 == "S") {
         s_6.style.border = "1px solid green" 
     } else  {
         s_6.style.border = "1px solid #cc00ff";
@@ -205,7 +205,7 @@ function s_6valid() {
 }
 function t_6valid() {
     var ax_t6 = t_6.value;
-    if (ax_t6 == "t") {
+    if (ax_t6 == "t" || ax_t6 == "T") {
         t_6.style.border = "1px solid green" 
     } else  {
         t_6.style.border = "1px solid #cc00ff";
@@ -213,7 +213,7 @@ function t_6valid() {
 }
 function r_6_2valid() {
     var ax_r62 = r_6_2.value;
-    if (ax_r62 == "r") {
+    if (ax_r62 == "r" || ax_r62 == "R") {
         r_6_2.style.border = "1px solid green" 
     } else  {
         r_6_2.style.border = "1px solid #cc00ff";
@@ -221,7 +221,7 @@ function r_6_2valid() {
 }
 function a_6valid() {
     var ax_a6 = a_6.value;
-    if (ax_a6 == "a") {
+    if (ax_a6 == "a" || ax_a6 == "A") {
         a_6.style.border = "1px solid green" 
     } else  {
         a_6.style.border = "1px solid #cc00ff";
@@ -229,7 +229,7 @@ function a_6valid() {
 }
 function d_6valid() {
     var ax_d6 = d_6.value;
-    if (ax_d6 == "d") {
+    if (ax_d6 == "d" || ax_d6 == "D") {
         d_6.style.border = "1px solid green" 
     } else  {
         d_6.style.border = "1px solid #cc00ff";
@@ -237,7 +237,7 @@ function d_6valid() {
 }
 function o_6valid() {
     var ax_o6 = o_6.value;
-    if (ax_o6 == "o") {
+    if (ax_o6 == "o" || ax_o6 == "O") {
         o_6.style.border = "1px solid green" 
     } else  {
         o_6.style.border = "1px solid #cc00ff";
@@ -245,7 +245,7 @@ function o_6valid() {
 }
 function r_6_3valid() {
     var ax_r63 = r_6_3.value;
-    if (ax_r63 == "r") {
+    if (ax_r63 == "r" || ax_r63 == "R") {
         r_6_3.style.border = "1px solid green" 
     } else  {
         r_6_3.style.border = "1px solid #cc00ff";
@@ -253,7 +253,7 @@ function r_6_3valid() {
 }
 function e_6_2valid() {
     var ax_e62 = e_6_2.value;
-    if (ax_e62 == "e") {
+    if (ax_e62 == "e" || ax_e62 == "E") {
         e_6_2.style.border = "1px solid green" 
     } else  {
         e_6_2.style.border = "1px solid #cc00ff";
@@ -261,7 +261,7 @@ function e_6_2valid() {
 }
 function s_6_2valid() {
     var ax_s62 = s_6_2.value;
-    if (ax_s62 == "s") {
+    if (ax_s62 == "s" || ax_s62 == "S") {
         s_6_2.style.border = "1px solid green" 
     } else  {
         s_6_2.style.border = "1px solid #cc00ff";
@@ -272,7 +272,7 @@ function s_6_2valid() {
 
 function f_7valid() {
     var ax_f7 = f_7.value;
-    if (ax_f7 == "f") {
+    if (ax_f7 == "f" || ax_f7 == "F") {
         f_7.style.border = "1px solid green" 
     } else  {
         f_7.style.border = "1px solid #cc00ff";
@@ -281,7 +281,7 @@ function f_7valid() {
 
 function l_8valid() {
     var ax_l8 = l_8.value;
-    if (ax_l8 == "l") {
+    if (ax_l8 == "l" || ax_l8 == "L") {
         l_8.style.border = "1px solid green" 
     } else  {
         l_8.style.border = "1px solid #cc00ff";
@@ -289,7 +289,7 @@ function l_8valid() {
 }
 function a_9valid() {
     var ax_a9 = a_9.value;
-    if (ax_a9 == "a") {
+    if (ax_a9 == "a" || ax_a9 == "A") {
         a_9.style.border = "1px solid green" 
     } else  {
         a_9.style.border = "1px solid #cc00ff";
@@ -297,7 +297,7 @@ function a_9valid() {
 }
 function s_10valid() {
     var ax_s10 = s_10.value;
-    if (ax_s10 == "s") {
+    if (ax_s10 == "s" || ax_s10 == "S") {
         s_10.style.border = "1px solid green" 
     } else  {
         s_10.style.border = "1px solid #cc00ff";
@@ -305,7 +305,7 @@ function s_10valid() {
 }
 function h_11valid() {
     var ax_h11 = h_11.value;
-    if (ax_h11 == "h") {
+    if (ax_h11 == "h" || ax_h11 == "H") {
         h_11.style.border = "1px solid green" 
     } else  {
         h_11.style.border = "1px solid #cc00ff";
@@ -317,7 +317,7 @@ function h_11valid() {
 
 function i_7valid() {
     var ax_i7 = i_7.value;
-    if (ax_i7 == "i") {
+    if (ax_i7 == "i" || ax_i7 == "I") {
         i_7.style.border = "1px solid green" 
     } else  {
         i_7.style.border = "1px solid #cc00ff";
@@ -348,7 +348,7 @@ function five_8valid() {
 
 function o_7valid() {
     var ax_r7 = o_7.value;
-    if (ax_r7 == "o") {
+    if (ax_r7 == "o" || ax_r7 == "O") {
         o_7.style.border = "1px solid green" 
     } else  {
         o_7.style.border = "1px solid #cc00ff";
@@ -356,7 +356,7 @@ function o_7valid() {
 }
 function m_8valid() {
     var ax_m8 = m_8.value;
-    if (ax_m8 == "m") {
+    if (ax_m8 == "m" || ax_m8 == "M") {
         m_8.style.border = "1px solid green" 
     } else  {
         m_8.style.border = "1px solid #cc00ff";
@@ -369,7 +369,7 @@ function m_8valid() {
 
 function d_8valid() {
     var ax_d8 = d_8.value;
-    if (ax_d8 == "d") {
+    if (ax_d8 == "d" || ax_d8 == "D") {
         d_8.style.border = "1px solid green" 
     } else  {
         d_8.style.border = "1px solid #cc00ff";
@@ -377,7 +377,7 @@ function d_8valid() {
 }
 function a_8valid() {
     var ax_a8 = a_8.value;
-    if (ax_a8 == "a") {
+    if (ax_a8 == "a" || ax_a8 == "A") {
         a_8.style.border = "1px solid green" 
     } else  {
         a_8.style.border = "1px solid #cc00ff";
@@ -385,7 +385,7 @@ function a_8valid() {
 }
 function t_8valid() {
     var ax_t8 = t_8.value;
-    if (ax_t8 == "t") {
+    if (ax_t8 == "t" || ax_t8 == "T") {
         t_8.style.border = "1px solid green" 
     } else  {
         t_8.style.border = "1px solid #cc00ff";
@@ -393,7 +393,7 @@ function t_8valid() {
 }
 function a_8_2valid() {
     var ax_a82 = a_8_2.value;
-    if (ax_a82 == "a") {
+    if (ax_a82 == "a" || ax_a82 == "A") {
         a_8_2.style.border = "1px solid green" 
     } else  {
         a_8_2.style.border = "1px solid #cc00ff";
@@ -401,7 +401,7 @@ function a_8_2valid() {
 }
 function b_8valid() {
     var ax_b8 = b_8.value;
-    if (ax_b8 == "b") {
+    if (ax_b8 == "b" || ax_b8 == "B") {
         b_8.style.border = "1px solid green" 
     } else  {
         b_8.style.border = "1px solid #cc00ff";
@@ -409,7 +409,7 @@ function b_8valid() {
 }
 function u_8valid() {
     var ax_u8 = u_8.value;
-    if (ax_u8 == "u") {
+    if (ax_u8 == "u" || ax_u8 == "U") {
         u_8.style.border = "1px solid green" 
     } else  {
         u_8.style.border = "1px solid #cc00ff";
@@ -417,7 +417,7 @@ function u_8valid() {
 }
 function s_8valid() {
     var ax_s8 = s_8.value;
-    if (ax_s8 == "s") {
+    if (ax_s8 == "s" || ax_s8 == "S") {
         s_8.style.border = "1px solid green" 
     } else  {
         s_8.style.border = "1px solid #cc00ff";
@@ -429,7 +429,7 @@ function s_8valid() {
 
 function d_9valid() {
     var ax_d9 = d_9.value;
-    if (ax_d9 == "d") {
+    if (ax_d9 == "d" || ax_d9 == "D") {
         d_9.style.border = "1px solid green" 
     } else  {
         d_9.style.border = "1px solid #cc00ff";
@@ -437,7 +437,7 @@ function d_9valid() {
 }
 function d_9_2valid() {
     var ax_d92 = d_9_2.value;
-    if (ax_d92 == "d") {
+    if (ax_d92 == "d" || ax_d92 == "D") {
         d_9_2.style.border = "1px solid green" 
     } else  {
         d_9_2.style.border = "1px solid #cc00ff";
@@ -445,7 +445,7 @@ function d_9_2valid() {
 }
 function r_9valid() {
     var ax_r9 = r_9.value;
-    if (ax_r9 == "r") {
+    if (ax_r9 == "r" || ax_r9 == "R") {
         r_9.style.border = "1px solid green" 
     } else  {
         r_9.style.border = "1px solid #cc00ff";
@@ -453,7 +453,7 @@ function r_9valid() {
 }
 function e_9valid() {
     var ax_e9 = e_9.value;
-    if (ax_e9 == "e") {
+    if (ax_e9 == "e" || ax_e9 == "E") {
         e_9.style.border = "1px solid green" 
     } else  {
         e_9.style.border = "1px solid #cc00ff";
@@ -461,7 +461,7 @@ function e_9valid() {
 }
 function s_9valid() {
     var ax_s9 = s_9.value;
-    if (ax_s9 == "s") {
+    if (ax_s9 == "s" || ax_s9 == "S") {
         s_9.style.border = "1px solid green" 
     } else  {
         s_9.style.border = "1px solid #cc00ff";
@@ -469,7 +469,7 @@ function s_9valid() {
 }
 function s_9_2valid() {
     var ax_s92 = s_9_2.value;
-    if (ax_s92 == "s") {
+    if (ax_s92 == "s" || ax_s92 == "S") {
         s_9_2.style.border = "1px solid green" 
     } else  {
         s_9_2.style.border = "1px solid #cc00ff";
@@ -477,7 +477,7 @@ function s_9_2valid() {
 }
 function b_9valid() {
     var ax_b9 = b_9.value;
-    if (ax_b9 == "b") {
+    if (ax_b9 == "b" || ax_b9 == "B") {
         b_9.style.border = "1px solid green" 
     } else  {
         b_9.style.border = "1px solid #cc00ff";
@@ -485,7 +485,7 @@ function b_9valid() {
 }
 function u_9valid() {
     var ax_u9 = u_9.value;
-    if (ax_u9 == "u") {
+    if (ax_u9 == "u" || ax_u9 == "U") {
         u_9.style.border = "1px solid green" 
     } else  {
         u_9.style.border = "1px solid #cc00ff";
@@ -493,7 +493,7 @@ function u_9valid() {
 }
 function s_9_3valid() {
     var ax_s93 = s_9_3.value;
-    if (ax_s93 == "s") {
+    if (ax_s93 == "s" || ax_s93 == "S") {
         s_9_3.style.border = "1px solid green" 
     } else  {
         s_9_3.style.border = "1px solid #cc00ff";
@@ -506,7 +506,7 @@ function s_9_3valid() {
 
 function d_10valid() {
     var ax_d10 = d_10.value;
-    if (ax_d10 == "d") {
+    if (ax_d10 == "d" || ax_d10 == "D") {
         d_10.style.border = "1px solid green" 
     } else  {
         d_10.style.border = "1px solid #cc00ff";
@@ -514,7 +514,7 @@ function d_10valid() {
 }
 function m_10valid() {
     var ax_m10 = m_10.value;
-    if (ax_m10 == "m") {
+    if (ax_m10 == "m" || ax_m10 == "M") {
         m_10.style.border = "1px solid green" 
     } else  {
         m_10.style.border = "1px solid #cc00ff";
@@ -522,7 +522,7 @@ function m_10valid() {
 }
 function a_10valid() {
     var ax_a10 = a_10.value;
-    if (ax_a10 == "a") {
+    if (ax_a10 == "a" || ax_a10 == "A") {
         a_10.style.border = "1px solid green" 
     } else  {
         a_10.style.border = "1px solid #cc00ff";
@@ -534,7 +534,7 @@ function a_10valid() {
 
 function q_11valid() {
     var ax_q11 = q_11.value;
-    if (ax_q11 == "q") {
+    if (ax_q11 == "q" || ax_q11 == "Q") {
         q_11.style.border = "1px solid green" 
     } else  {
         q_11.style.border = "1px solid #cc00ff";
@@ -542,7 +542,7 @@ function q_11valid() {
 }
 function u_11valid() {
     var ax_u11 = u_11.value;
-    if (ax_u11 == "u") {
+    if (ax_u11 == "u" || ax_u11 == "U") {
         u_11.style.border = "1px solid green" 
     } else  {
         u_11.style.border = "1px solid #cc00ff";
@@ -550,7 +550,7 @@ function u_11valid() {
 }
 function a_11valid() {
     var ax_a11 = a_11.value;
-    if (ax_a11 == "a") {
+    if (ax_a11 == "a" || ax_a11 == "A") {
         a_11.style.border = "1px solid green" 
     } else  {
         a_11.style.border = "1px solid #cc00ff";
@@ -558,7 +558,7 @@ function a_11valid() {
 }
 function d_11valid() {
     var ax_d11 = d_11.value;
-    if (ax_d11 == "d") {
+    if (ax_d11 == "d" || ax_d11 == "D") {
         d_11.style.border = "1px solid green" 
     } else  {
         d_11.style.border = "1px solid #cc00ff";
@@ -566,7 +566,7 @@ function d_11valid() {
 }
 function c_11valid() {
     var ax_c11 = c_11.value;
-    if (ax_c11 == "c") {
+    if (ax_c11 == "c" || ax_c11 == "C") {
         c_11.style.border = "1px solid green" 
     } else  {
         c_11.style.border = "1px solid #cc00ff";
@@ -574,7 +574,7 @@ function c_11valid() {
 }
 function o_11valid() {
     var ax_o11 = o_11.value;
-    if (ax_o11 == "o") {
+    if (ax_o11 == "o" || ax_o11 == "O") {
         o_11.style.border = "1px solid green" 
     } else  {
         o_11.style.border = "1px solid #cc00ff";
@@ -582,7 +582,7 @@ function o_11valid() {
 }
 function r_11valid() {
     var ax_r11 = r_11.value;
-    if (ax_r11 == "r") {
+    if (ax_r11 == "r" || ax_r11 == "R") {
         r_11.style.border = "1px solid green" 
     } else  {
         r_11.style.border = "1px solid #cc00ff";
@@ -590,7 +590,7 @@ function r_11valid() {
 }
 function e_11valid() {
     var ax_e11 = e_11.value;
-    if (ax_e11 == "e") {
+    if (ax_e11 == "e" || ax_e11 == "E") {
         e_11.style.border = "1px solid green" 
     } else  {
         e_11.style.border = "1px solid #cc00ff";
@@ -602,7 +602,7 @@ function e_11valid() {
 
 function u_13_2valid() {
     var ax_u132 = u_13_2.value;
-    if (ax_u132 == "u") {
+    if (ax_u132 == "u" || ax_u132 == "U") {
         u_13_2.style.border = "1px solid green" 
     } else  {
         u_13_2.style.border = "1px solid #cc00ff";
@@ -610,7 +610,7 @@ function u_13_2valid() {
 }
 function a_15valid() {
     var ax_a15 = a_15.value;
-    if (ax_a15 == "a") {
+    if (ax_a15 == "a" || ax_a15 == "A") {
         a_15.style.border = "1px solid green" 
     } else  {
         a_15.style.border = "1px solid #cc00ff";
@@ -623,7 +623,7 @@ function a_15valid() {
 
 function d_14valid() {
     var ax_d14 = d_14.value;
-    if (ax_d14 == "d") {
+    if (ax_d14 == "d" || ax_d14 == "D") {
         d_14.style.border = "1px solid green" 
     } else  {
         d_14.style.border = "1px solid #cc00ff";
@@ -631,7 +631,7 @@ function d_14valid() {
 }
 function u_14valid() {
     var ax_u14 = u_14.value;
-    if (ax_u14 == "u") {
+    if (ax_u14 == "u" || ax_u14 == "U") {
         u_14.style.border = "1px solid green" 
     } else  {
         u_14.style.border = "1px solid #cc00ff";
@@ -639,7 +639,7 @@ function u_14valid() {
 }
 function a_14valid() {
     var ax_a14 = a_14.value;
-    if (ax_a14 == "a") {
+    if (ax_a14 == "a" || ax_a14 == "A") {
         a_14.style.border = "1px solid green" 
     } else  {
         a_14.style.border = "1px solid #cc00ff";
@@ -647,7 +647,7 @@ function a_14valid() {
 }
 function l_14valid() {
     var ax_l14 = l_14.value;
-    if (ax_l14 == "l") {
+    if (ax_l14 == "l" || ax_l14 == "L") {
         l_14.style.border = "1px solid green" 
     } else  {
         l_14.style.border = "1px solid #cc00ff";
@@ -655,7 +655,7 @@ function l_14valid() {
 }
 function c_14valid() {
     var ax_c14 = c_14.value;
-    if (ax_c14 == "c") {
+    if (ax_c14 == "c" || ax_c14 == "C") {
         c_14.style.border = "1px solid green" 
     } else  {
         c_14.style.border = "1px solid #cc00ff";
@@ -663,7 +663,7 @@ function c_14valid() {
 }
 function o_14valid() {
     var ax_o14 = o_14.value;
-    if (ax_o14 == "o") {
+    if (ax_o14 == "o" || ax_o14 == "O") {
         o_14.style.border = "1px solid green" 
     } else  {
         o_14.style.border = "1px solid #cc00ff";
@@ -671,7 +671,7 @@ function o_14valid() {
 }
 function r_14valid() {
     var ax_r14 = r_14.value;
-    if (ax_r14 == "r") {
+    if (ax_r14 == "r" || ax_r14 == "R") {
         r_14.style.border = "1px solid green" 
     } else  {
         r_14.style.border = "1px solid #cc00ff";
@@ -679,7 +679,7 @@ function r_14valid() {
 }
 function e_14valid() {
     var ax_e14 = e_14.value;
-    if (ax_e14 == "e") {
+    if (ax_e14 == "e" || ax_e14 == "E") {
         e_14.style.border = "1px solid green" 
     } else  {
         e_14.style.border = "1px solid #cc00ff";
@@ -969,8 +969,10 @@ function ax_16() {
 // if (ax_m_1 == "m" && ax_e_2 == "e" && ax_m_3 == "m" ) {
     
     function eprom1() {
-        if (e_4.value == "e" && p_4.value == "p" && r_4.value == "r"
-            && o_4.value == "o" && m_4.value == "m") {
+        if ((e_4.value == "e" && p_4.value == "p" && r_4.value == "r"
+            && o_4.value == "o" && m_4.value == "m") || (e_4.value == "E"
+            && p_4.value == "P" && r_4.value == "R"
+            && o_4.value == "O" && m_4.value == "M")) {
             e_4.style.boxShadow = "0px 1px 5px 1px #c300ff";
             p_4.style.boxShadow = "0px 1px 5px 1px #c300ff";
             r_4.style.boxShadow = "0px 1px 5px 1px #c300ff";
