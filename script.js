@@ -965,8 +965,6 @@ function ax_16() {
     text_16.style.color     = "red";
 }
 
-
-// if (ax_m_1 == "m" && ax_e_2 == "e" && ax_m_3 == "m" ) {
     
     function eprom1() {
         if ((e_4.value == "e" && p_4.value == "p" && r_4.value == "r"
@@ -995,11 +993,15 @@ function ax_16() {
     }
 
     function memoria() {
-        if ( m_1.value == "m" && e_2.value == "e" && m_3.value == "m"
+        if ((m_1.value == "m" && e_2.value == "e" && m_3.value == "m"
             && o_4.value == "o" && r_5.value == "r" && i_6.value == "i"
             && a_7.value == "a" && d_8.value == "d" && e_9.value == "e"
             && m_10.value == "m" && a_11.value == "a" && s_12.value == "s"
-            && s_13.value == "s" && a_14.value == "a") {
+            && s_13.value == "s" && a_14.value == "a") || (m_1.value == "M" && e_2.value == "E" && m_3.value == "M"
+            && o_4.value == "O" && r_5.value == "R" && i_6.value == "I"
+            && a_7.value == "A" && d_8.value == "D" && e_9.value == "E"
+            && m_10.value == "M" && a_11.value == "A" && s_12.value == "S"
+            && s_13.value == "S" && a_14.value == "A")) {
 
             m_1.style.boxShadow  = "0px 1px 5px 1px #c300ff";
             e_2.style.boxShadow  = "0px 1px 5px 1px #c300ff";
@@ -1050,7 +1052,8 @@ function ax_16() {
     }
 
 function cpu() {
-    if (c_5.value == "c" && p_5.value == "p" && u_5.value == "u") {
+    if ((c_5.value == "c" && p_5.value == "p" && u_5.value == "u")||
+        (c_5.value == "C" && p_5.value == "P" && u_5.value == "U")) {
         c_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
         p_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
         u_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1066,7 +1069,8 @@ function cpu() {
 }
 
 function ram() {
-    if (r_5_2.value == "r" && a_6.value == "a" && m_7.value == "m") {
+    if ((r_5_2.value == "r" && a_6.value == "a" && m_7.value == "m") ||
+    (r_5_2.value == "R" && a_6.value == "A" && m_7.value == "M")) {
         r_5_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
         a_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
         m_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1082,7 +1086,8 @@ function ram() {
 }
 
 function rom() {
-    if (r_6_3.value == "r" && o_7.value == "o" && m_8.value == "m") {
+    if ((r_6_3.value == "r" && o_7.value == "o" && m_8.value == "m") ||
+        (r_6_3.value == "R" && o_7.value == "O" && m_8.value == "M")) {
         r_6_3.style.boxShadow = "0px 1px 5px 1px #c300ff";
         o_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
         m_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1098,7 +1103,8 @@ function rom() {
 }
 
 function five5() {
-    if (i_7.value == "i" && five_8.value == 5) {
+    if ((i_7.value == "i" && five_8.value == 5) ||
+    (i_7.value == "I" && five_8.value == 5)) {
         i_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
         five_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
 
@@ -1110,7 +1116,8 @@ function five5() {
     }
 }
 function seven7() {
-    if (i_7.value == "i" && seven_7.value == 7) {
+    if ((i_7.value == "i" && seven_7.value == 7) ||
+        (i_7.value == "I" && seven_7.value == 7)) {
         i_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
         seven_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
 
@@ -1123,8 +1130,10 @@ function seven7() {
 }
 
 function flash() {
-    if (f_7.value == "f" && l_8.value == "l" && a_9.value == "a"
-        && s_10.value == "s" && h_11.value == "h") {
+    if ((f_7.value == "f" && l_8.value == "l" && a_9.value == "a"
+        && s_10.value == "s" && h_11.value == "h") || (f_7.value == "F"
+        && l_8.value == "L" && a_9.value == "A"
+        && s_10.value == "S" && h_11.value == "H")) {
         f_7.style.boxShadow = "0px 1px 5px 1px #c300ff";
         l_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
         a_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1146,7 +1155,8 @@ function flash() {
 }
 
 function ula() {
-    if (u_13_2.value == "u" && l_14.value == "l" && a_15.value == "a") {
+    if ((u_13_2.value == "u" && l_14.value == "l" && a_15.value == "a") ||
+    (u_13_2.value == "U" && l_14.value == "L" && a_15.value == "A")) {
         u_13_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
         l_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
         a_15.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1162,9 +1172,11 @@ function ula() {
 }
 
 function databus() {
-    if (d_8.value == "d" && a_8.value == "a" && t_8.value == "t"
+    if ((d_8.value == "d" && a_8.value == "a" && t_8.value == "t"
         && a_8_2.value == "a" && b_8.value == "b" && u_8.value == "u"
-        && s_8.value == "s") {
+        && s_8.value == "s") || (d_8.value == "D" && a_8.value == "A" && t_8.value == "T"
+        && a_8_2.value == "A" && b_8.value == "B" && u_8.value == "U"
+        && s_8.value == "S")) {
         d_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
         a_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
         t_8.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1192,10 +1204,13 @@ function databus() {
 }
 
 function address() {
-    if (a_9.value == "a" && d_9.value == "d" && d_9_2.value == "d"
+    if ((a_9.value == "a" && d_9.value == "d" && d_9_2.value == "d"
         && r_9.value == "r" && e_9.value == "e" && s_9.value == "s"
         && s_9_2.value == "s" && b_9.value == "b" && u_9.value == "u"
-         && s_9_3.value == "s") {
+         && s_9_3.value == "s") || (a_9.value == "A" && d_9.value == "D" && d_9_2.value == "D"
+         && r_9.value == "R" && e_9.value == "E" && s_9.value == "S"
+         && s_9_2.value == "S" && b_9.value == "B" && u_9.value == "U"
+          && s_9_3.value == "S")) {
         a_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
         d_9.style.boxShadow = "0px 1px 5px 1px #c300ff";
         d_9_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1232,7 +1247,8 @@ function address() {
 }
 
 function dma() {
-    if (d_10.value == "d" && m_10.value == "m" && a_10.value == "a") {
+    if ((d_10.value == "d" && m_10.value == "m" && a_10.value == "a") || 
+        (d_10.value == "D" && m_10.value == "M" && a_10.value == "A")) {
         d_10.style.boxShadow = "0px 1px 5px 1px #c300ff";
         m_10.style.boxShadow = "0px 1px 5px 1px #c300ff";
         a_10.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1248,9 +1264,12 @@ function dma() {
 }
 
 function quad() {
-    if (q_11.value == "q" && u_11.value == "u" && a_11.value == "a"
+    if ((q_11.value == "q" && u_11.value == "u" && a_11.value == "a"
          && d_11.value == "d" && c_11.value == "c" && o_11.value == "o"
-          && r_11.value == "r"&& e_11.value == "e") {
+         && r_11.value == "r"&& e_11.value == "e") || (q_11.value == "Q"
+         && u_11.value == "U" && a_11.value == "A"
+         && d_11.value == "D" && c_11.value == "C" && o_11.value == "O"
+         && r_11.value == "R"&& e_11.value == "E")) {
         q_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
         u_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
         a_11.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1281,9 +1300,11 @@ function quad() {
 }
 
 function dual() {
-    if (d_14.value == "d" && u_14.value == "u" && a_14.value == "a"
+    if ((d_14.value == "d" && u_14.value == "u" && a_14.value == "a"
     && l_14.value == "l" && c_14.value == "c" && o_14.value == "o"
-     && r_14.value == "r" && e_14.value == "e") {
+     && r_14.value == "r" && e_14.value == "e") || (d_14.value == "D" && u_14.value == "U" && a_14.value == "A"
+     && l_14.value == "L" && c_14.value == "C" && o_14.value == "O"
+      && r_14.value == "R" && e_14.value == "E")) {
         d_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
         u_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
         a_14.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1314,11 +1335,15 @@ function dual() {
 }
 
 function registrador() {
-    if (r_6.value == "r" && e_6.value == "e" && g_6.value == "g"
+    if ((r_6.value == "r" && e_6.value == "e" && g_6.value == "g"
     && i_6.value == "i" && s_6.value == "s" && t_6.value == "t"
      && r_6_2.value == "r" && a_6.value == "a" && d_6.value == "d"
       && o_6.value == "o" && r_6_3.value == "r" && e_6_2.value == "e"
-       && s_6_2.value == "s") {
+       && s_6_2.value == "s") || (r_6.value == "R" && e_6.value == "E" && g_6.value == "G"
+        && i_6.value == "I" && s_6.value == "S" && t_6.value == "T"
+         && r_6_2.value == "R" && a_6.value == "A" && d_6.value == "D"
+          && o_6.value == "O" && r_6_3.value == "R" && e_6_2.value == "E"
+           && s_6_2.value == "S")) {
         r_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
         e_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
         g_6.style.boxShadow = "0px 1px 5px 1px #c300ff";
@@ -1364,7 +1389,8 @@ function registrador() {
 }
 
 function cs1() {
-    if (c_5.value == "c" && s_6_2.value == "s") {
+    if ((c_5.value == "c" && s_6_2.value == "s") || 
+        (c_5.value == "C" && s_6_2.value == "S")){
         c_5.style.boxShadow = "0px 1px 5px 1px #c300ff";
         s_6_2.style.boxShadow = "0px 1px 5px 1px #c300ff";
 

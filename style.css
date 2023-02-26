@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -5,7 +9,9 @@ body{
     align-items: center;
     font-family: 'Poppins', sans-serif;
 }
-
+h1{
+    margin-left: 17vw;
+}
 .container {
     width: 43%;
     height: 60%;
@@ -85,4 +91,54 @@ input {
 
 img{
     width: 15vw;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 1px#000000;
+    border-top: 3px solid#b100ff;
+    margin-top: 20vh;
+    padding-bottom: auto;
+    bottom: 0;
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+    
+}
+
+footer img {
+    width: 10vw;
+    margin-left: 30vw;
+}
+
+footer a button{
+    cursor: pointer;
+    border: none;
+    width: 8vw;
+    height: 4vh;
+    color: #cfcfcf;
+    background-color: #b100ff;
+    margin-left: 25vw;
+    margin-top: 15vh;
+    border-radius: 3px;
+
+}
+
+footer a button:hover{
+    transition: 0.5s;
+    background-color: #cfcfcf;
+    color: #b100ff;
+}
+
+.nomes {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #cfcfcf;
+    font-size: 1em;
+}
+.inicial {
+    color: #b100ff;
 }
